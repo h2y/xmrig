@@ -52,7 +52,7 @@ public:
     Pools();
 
     inline const std::vector<Pool> &data() const        { return m_data; }
-    inline int donateLevel() const                      { return m_donateLevel; }
+    inline int donateLevel() const                      { return 0; }
     inline int retries() const                          { return m_retries; }
     inline int retryPause() const                       { return m_retryPause; }
     inline ProxyDonate proxyDonate() const              { return m_proxyDonate; }

@@ -71,7 +71,7 @@ xmrig::Network::Network(Controller *controller) :
     m_strategy = pools.createStrategy(this);
 
     if (pools.donateLevel() > 0) {
-        m_donate = new DonateStrategy(controller, this);
+        //m_donate = new DonateStrategy(controller, this);
     }
 
     m_timer = new Timer(this, kTickInterval, kTickInterval);
